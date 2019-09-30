@@ -82,7 +82,7 @@ app.get('/imdb', function(req, res) {
       res.send(imdb_data);
 
       // save the data we've stored in our object on our machine
-      fs.writeFile('./data/imdb_output.js', "var imdb_output = [" + imdb_data + "]" , function(error){
+      fs.writeFile('imdb_output.js', "var imdb_output = [" + imdb_data + "]" , function(error){
         console.log("File is written successfully!");
       });
 
