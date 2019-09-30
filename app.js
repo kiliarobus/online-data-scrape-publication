@@ -49,40 +49,29 @@ app.get('/wikipedia', function(req, res) {
 
 // IMDB SCRAPER: access by going to 'localhost:2100/imdb'
 app.get('/imdb', function(req, res) {
-
   var url = "https://www.imdb.com/chart/top";
-
   // let's make the http request to the url above using the 'request' dependency
   request(url, function(error, response, html) {
-
     // only execute if there's no error
     if(!error){
-
       // we can use the dependency 'cheerio' to traverse the DOM and use jQuery-like selectors and functions
       var $ = cheerio.load(html);
-
-      var imdb_data = [];
+      var data = [];
 
       // all the content we are looking for are inside a div with the class 'lister', let's filter so that the data we are working with is without unnecessary data
-      $('.lister').filter(function(){
-
+        $('.lister-list').filter(function(){
         // there are a lot of 'tr' elements and for each of the 'tr' element we want to execute a function
         $(this).find('tr').each(function(index, element) {
-
           // the 'index' or the .each() function starts at 1, our array positions start counting from 0
-          var array_index = index - 1;
-
           // get the url to which each image points to, this is in the 'src' attribute, also we need to wrap that inside quotes to be read properly later by our html
-          imdb_data[array_index] = "'" + $(this).find('img').attr('src') + "'";
-
+        data[i]="'" + $(this).find('.posterColumn').find('img').attr('scr')+ "'";
         });
       });
 
       // send the data we've stored in our array back to the browser
-      res.send(imdb_data);
-
+      res.send(data);
       // save the data we've stored in our object on our machine
-      fs.writeFile('imdb_output.js', "var imdb_output = [" + imdb_data + "]" , function(error){
+      fs.writeFile('imdb_output.js', "var imdb_list = [" + data + "]" , function(){
         console.log("File is written successfully!");
       });
 
