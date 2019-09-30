@@ -9,7 +9,7 @@ var app = express();
 // WIKIPEDIA SCRAPER: access by going to 'localhost:2100/wikipedia'
 app.get('/wikipedia', function(req, res) {
 
-  var url = "https://en.wikipedia.org/wiki/Phyllotaxis";
+  var url = "https://en.wikipedia.org/wiki/Barcelona";
 
   // let's make the http request to the url above using the 'request' dependency
   request(url, function(error, response, html) {
