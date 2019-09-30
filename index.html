@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title></title>
+  <meta charset="utf-8">
+ <script type="text/javascript" src="imdb-output.js"></script>
+ <script type="text/javascript" >
+ function loadimdb() {
+   var div = document.getElementById("data");
+   for(var i = 0; i < imdb_list.length; i++) {
+     if(!(imdb_list[i] === "undefined")) {
+       img = "<img class='tile' src='" + imdb_list[i] + "'>";
+       div.innerHTML = div.innerHTML + img;
+     }
+   }
+ }
+ </script>
+ <style type="css">
+ img {
+   height: 100px;
+   width: 65px;
+   margin: 5px;
+ }
+ </style>
+</head>
+<body onload="loadimdb()">
+ <div id="data"></div>
+</body>
+</html>
