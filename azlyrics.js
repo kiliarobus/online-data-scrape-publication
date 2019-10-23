@@ -50,8 +50,8 @@ app.get('/lyrics', function(req, res) {
   });
 });
 
-app.get('/wikihow', function(){
-  var keywords = ["love", "cry", "hug"];
+app.get('/lyrics', function(){
+  var keywords = ["booty"];
   var urls = [];
 
   for(word in keywords) {
