@@ -16,7 +16,7 @@ app.get('/lyrics', function(req, res) {
       var $ = cheerio.load(html);
 
       // let's create a javascript object to save our data in
-      var lyrics_list = []; {
+      var lyrics_list= {
         title: '',
         img: '',
         paragraph: ''
