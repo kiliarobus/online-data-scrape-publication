@@ -26,16 +26,16 @@ app.get('/lyrics', function(req, res) {
       $('#content').filter(function(){
 
         // we can access the properties of our javascript object by writing the name of the object 'dot' and then the name of the property
-        wiki_data.title = $(this).find('h1').text();
-        wiki_data.img = $(this).find('img').attr('src');
-        wiki_data.paragraph = $(this).find('p').first().text();
+        lyrics_list.title = $(this).find('h1').text();
+        lyrics_list.img = $(this).find('img').attr('src');
+        lyrics_list.paragraph = $(this).find('p').first().text();
 
       });
 
       // send the data we've stored in our object back to the browser
-      res.send(wiki_data);
+      res.send(lyrics_list);
 
-      fs.writeFile('./data/wiki_output.js', "var wiki_output = " + JSON.stringify(wiki_data), function(error){
+      fs.writeFile('./data/azlyrics_output.js', "var azlyrics_output = " + JSON.stringify(lyrics_list), function(error){
         console.log("File is written successfully!");
       });
     }
