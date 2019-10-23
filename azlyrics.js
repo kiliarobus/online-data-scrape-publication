@@ -16,11 +16,7 @@ app.get('/lyrics', function(req, res) {
       var $ = cheerio.load(html);
 
       // let's create a javascript object to save our data in
-      var lyrics_list= {
-        title: '',
-        img: '',
-        paragraph: ''
-      };
+    var lyrics_list= [];
 
       // all the content we are looking for are inside a div with the id 'content', let's filter so that the data we are working with is without unnecessary data
       $('#content').filter(function(){
