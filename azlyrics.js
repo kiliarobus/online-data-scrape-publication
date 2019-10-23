@@ -1,4 +1,16 @@
+// storing dependencies in variables
+var express = require('express');
+var request = require('request');
+var cheerio = require('cheerio');
+var exec = require('child_process').exec;
+var spawn = require('child_process').spawn;
+var fs = require('fs');
+var url = require('url');
 
+var port = 9999;
+var app = express();
+
+var DOWNLOAD_DIR = './';
 
 // WIKIPEDIA SCRAPER: access by going to 'localhost:2100/wikipedia'
 
