@@ -79,11 +79,11 @@ app.get('/imdb', function(req, res){
 });
 
 // INSTAGRAM SCRAPER: access by going to 'localhost:2100/instagram'
-app.get('/instagram', function(req, res){
+app.get('/azlyrics', function(req, res){
 
   // try any hashtags and see the results, make sure to write INSIDE the quotation marks
-  var hashtag = 'dog';
-  var url = 'https://instagram.com/explore/tags/'+ hashtag +'/?__a=1';
+  var word = 'booty';
+  var url = 'https://search.azlyrics.com/search.php?q='+ word +'/?__a=1';
 
   // let's make the http request to the url above using the 'request' dependency
   request(url, function(error, response, html) {
@@ -95,13 +95,13 @@ app.get('/instagram', function(req, res){
       var $ = cheerio.load(html);
 
       // the url actually gives back already a ready to use JSON object so we just want that raw text
-      var instagram_data = $.text();
+      var azlyrics_data = $.text();
 
       // send the data we've stored in our array back to the browser
-      res.send(instagram_data);
+      res.send(azlyrics_data);
 
       // save the data we've stored in our object on our machine
-      fs.writeFile('instagram_output.js', 'var instagram_output = ' + instagram_data, function(err){
+      fs.writeFile('azlyrics_output.js', 'var azlyrics_output = ' + azlyrics_data, function(err){
         console.log('File is written successfully!');
       });
 
