@@ -31,14 +31,14 @@ app.get('/lyrics', function(req, res) {
     var lyrics_list= [];
 
       // all the content we are looking for are inside a div with the id 'content', let's filter so that the data we are working with is without unnecessary data
-      $('#content').filter(function(){
-
-        // we can access the properties of our javascript object by writing the name of the object 'dot' and then the name of the property
-        lyrics_list.title = $(this).find('h1').text();
-        lyrics_list.img = $(this).find('img').attr('src');
-        lyrics_list.paragraph = $(this).find('p').first().text();
+      $('.panel').filter(function(){
+          $(this).find('tr').each(function(){
+            console.log($(this).text())
+          })
 
       });
+
+
 
       // send the data we've stored in our object back to the browser
       res.send(lyrics_list);
