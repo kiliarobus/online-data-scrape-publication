@@ -49,30 +49,3 @@ app.get('/lyrics', function(req, res) {
     }
   });
 });
-
-app.get('/lyrics', function(){
-  var keywords = ["booty"];
-  var urls = [];
-
-  for(word in keywords) {
-
-    http.get("https://www.wikihow.com/wikiHowTo?search=" + word, function(response) {
-      response.on('data', function(chunk){
-        var $ = cheerio.load(chunk);
-
-        $('a.result_link').each(function(index, element){
-          urls[index] = $(this).attr('href');
-        });
-      });
-
-    });
-
-    }
-
-  if(urls.length > 0) {
-    for(url in urls) {
-
-    }
-  }
-
-});
