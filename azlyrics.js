@@ -31,7 +31,7 @@ app.get('/lyrics', function(req, res) {
     var lyrics_list= [];
 
       // all the content we are looking for are inside a div with the id 'content', let's filter so that the data we are working with is without unnecessary data
-      $('.col-xs-12 col-lg-8 text-center').filter(function(){
+      $('.col-xs-12.col-lg-8.text-center').filter(function(){
 
             console.log($(this).text())
 
