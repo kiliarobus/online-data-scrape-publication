@@ -7,12 +7,12 @@ var spawn = require('child_process').spawn;
 var fs = require('fs');
 var url = require('url');
 
-var port = 2100;
+var port = 3000;
 var app = express();
 
 var DOWNLOAD_DIR = './';
 
-app.get('/lyrics1', function(req, res) {
+app.get('/lyricsone', function(req, res) {
 
   var url = "https://www.azlyrics.com/lyrics/toohort/invasionoftheflatbootybitches.html";
 
@@ -29,7 +29,7 @@ app.get('/lyrics1', function(req, res) {
       var lyrics_list= [];
 
       // all the content we are looking for are inside a div with the id 'content', let's filter so that the data we are working with is without unnecessary data
-      $('.col-xs-12.col-lg-8.text-center').filter(function(){
+      $('.row').filter(function(){
             // console.log($(this).text())
             // $(this).text();
             $(this).find('div').each(function(i, elem){
@@ -41,7 +41,7 @@ app.get('/lyrics1', function(req, res) {
       // send the data we've stored in our object back to the browser
       res.send(lyrics_list);
 
-      fs.writeFile('./azlyrics1_output.js', "var azlyrics1_output = " + lyrics_list, function(error){
+      fs.writeFile('./azlyricsone_output.js', "var azlyricsone_output = " + lyrics_list, function(error){
         console.log("File is written successfully!");
       });
     }
