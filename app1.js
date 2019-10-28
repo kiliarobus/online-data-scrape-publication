@@ -12,7 +12,7 @@ var app = express();
 
 var DOWNLOAD_DIR = './';
 
-app.get('/lyrics', function(req, res) {
+app.get('/lyrics1', function(req, res) {
 
   var url = "https://www.azlyrics.com/lyrics/toohort/invasionoftheflatbootybitches.html";
 
