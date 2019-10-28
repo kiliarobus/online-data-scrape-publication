@@ -35,7 +35,7 @@ app.get('/lyricsone', function(req, res) {
             $(this).find('div').each(function(i, elem){
               lyrics_list[i] = $(this).text();
             });
-hello 
+
       });
 
       // send the data we've stored in our object back to the browser
