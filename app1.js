@@ -7,14 +7,14 @@ var spawn = require('child_process').spawn;
 var fs = require('fs');
 var url = require('url');
 
-var port = 3000;
+var port = 2100;
 var app = express();
 
 var DOWNLOAD_DIR = './';
 
 app.get('/lyrics', function(req, res) {
 
-  var url = "https://www.azlyrics.com/lyrics/guccimane/bigbooty.html";
+  var url = "https://www.azlyrics.com/lyrics/toohort/invasionoftheflatbootybitches.html";
 
   // let's make the http request to the url above using the 'request' dependency
   request(url, function(error, response, html) {
@@ -41,7 +41,7 @@ app.get('/lyrics', function(req, res) {
       // send the data we've stored in our object back to the browser
       res.send(lyrics_list);
 
-      fs.writeFile('./azlyrics_output.js', "var azlyrics_output = " + lyrics_list, function(error){
+      fs.writeFile('./azlyrics1_output.js', "var azlyrics1_output = " + lyrics_list, function(error){
         console.log("File is written successfully!");
       });
     }
