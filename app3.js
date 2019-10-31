@@ -12,13 +12,12 @@ var app = express();
 
 var DOWNLOAD_DIR = './';
 
-app.get('/lyricsone', function(req, res) {
+app.get('/lyricsthree', function(req, res) {
 
-  var url = "https://www.azlyrics.com/lyrics/toohort/invasionoftheflatbootybitches.html";
+  var url = "https://www.azlyrics.com/lyrics/brokencyde/bootycall.html";
 
   // let's make the http request to the url above using the 'request' dependency
   request(url, function(error, response, html) {
-
     // only execute if there's no error
     if( !error ){
 
@@ -29,19 +28,23 @@ app.get('/lyricsone', function(req, res) {
       var lyrics_list= [];
 
       // all the content we are looking for are inside a div with the id 'content', let's filter so that the data we are working with is without unnecessary data
-      $('.row').filter(function(){
-            // console.log($(this).text())
-            // $(this).text();
-            $(this).find('div').each(function(i, elem){
-              lyrics_list[i] = "'" + $(this).text() + "'";
+
+      $( '.ringtone' ).nextAll( 'div' ).filter(function(){
+            $(this).contents( ).each(function(i, elem){
+              var line = $( this ).text().trim( );
+              line = line.split( '\n' ).join( ' ' ).trim( );
+
+              if ( line != '' )
+                lyrics_list.push( $(this).text() );
             });
 
       });
 
       // send the data we've stored in our object back to the browser
+      console.log( lyrics_list );
       res.send(lyrics_list);
 
-      fs.writeFile('./azlyricsone_output.js', "var azlyricsone_output = " + lyrics_list, function(error){
+      fs.writeFile('./azlyricsthree_output.js', "var azlyricsthree_output = " + lyrics_list, function(error){
         console.log("File is written successfully!");
       });
     }

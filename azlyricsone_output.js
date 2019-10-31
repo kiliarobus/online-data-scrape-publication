@@ -1,6 +1,6 @@
-var azlyricsone_output = 
+var azlyricsone_output = '
           
-       ,,
+       ','','
 
 
 
@@ -230,7 +230,7 @@ Blowjob Betty
 
 
 
-,
+','
 
 
 
@@ -242,18 +242,18 @@ Blowjob Betty
 
 
 
-,,
+','','
 
 
 
 
 
 
-,"Invasion Of The Flat Booty Bitches" lyrics,
+','"Invasion Of The Flat Booty Bitches" lyrics','
 Too $hort Lyrics
-,
+','
 
-,
+','
 
 [Too Short]
 Baby, check this out
@@ -384,28 +384,28 @@ Invasion of the Flat Booty Bitches
 Where's your ass, what happened to you?
 Invasion of the Flat Booty Bitches
 The invasion is on...
-,
+','
 
 
-,
+','
  Submit Corrections
-,,
+','','
 
-,Writer(s): Walker Kurt, Shaw Todd Anthony, Sermon Erick S, Simmons Russell W, Moore James B, Bralower James Robert, Glassman Seth Michael
+','Writer(s): Walker Kurt, Shaw Todd Anthony, Sermon Erick S, Simmons Russell W, Moore James B, Bralower James Robert, Glassman Seth Michael
 
-,
+','
 album: "Raw, Uncut And X-Rated" (1986)
 Invasion Of The Flat Booty Bitches
 Oakland, California
 The Bitch Sucks Dick
 Blowjob Betty
-,  
+','  
 		
        		
             	   Search
           	
- 	  ,
+ 	  ','
 
-,
+','
    
-,
+',''

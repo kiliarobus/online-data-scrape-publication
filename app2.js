@@ -18,7 +18,6 @@ app.get('/lyricstwo', function(req, res) {
 
   // let's make the http request to the url above using the 'request' dependency
   request(url, function(error, response, html) {
-
     // only execute if there's no error
     if( !error ){
 
@@ -29,16 +28,20 @@ app.get('/lyricstwo', function(req, res) {
       var lyrics_list= [];
 
       // all the content we are looking for are inside a div with the id 'content', let's filter so that the data we are working with is without unnecessary data
-      $('.row').filter(function(){
-            // console.log($(this).text())
-            // $(this).text();
-            $(this).find('div').each(function(i, elem){
-              lyrics_list[i] = $(this).text();
+
+      $( '.ringtone' ).nextAll( 'div' ).filter(function(){
+            $(this).contents( ).each(function(i, elem){
+              var line = $( this ).text().trim( );
+              line = line.split( '\n' ).join( ' ' ).trim( );
+              
+              if ( line != '' )
+                lyrics_list.push( $(this).text() );
             });
 
       });
 
       // send the data we've stored in our object back to the browser
+      console.log( lyrics_list );
       res.send(lyrics_list);
 
       fs.writeFile('./azlyricstwo_output.js', "var azlyricstwo_output = " + lyrics_list, function(error){
