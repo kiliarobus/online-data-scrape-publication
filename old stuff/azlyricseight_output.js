@@ -1,4 +1,4 @@
-var azlyricseight_output = 
+var azlyricseight_output =
 Make ya,and Shake yo shit (woo Lord),
 I am puttin poetry into motion my addiction is overdosing from a natural high,
 Supplyin the soul with that unmistakinable mystical magical feelin that your money can't buy,

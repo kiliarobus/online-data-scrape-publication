@@ -66,4 +66,4 @@ Who booty? Who booty? Who booty is it?,
 Who booty is it? Who booty is it?,
 Who booty? Who booty? Who booty is it?,[Tag:],
 Cool kids go to hell...
-, Submit Corrections,Writer(s): Di Jonn Gary Grizzell, Sudan Williams, Jacob Lee Tupolo
+, Submit Corrections,Writer(s): Jacob Lee Tupolo, Di Jonn Gary Grizzell, Sudan Williams

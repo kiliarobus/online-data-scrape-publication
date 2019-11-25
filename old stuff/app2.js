@@ -33,7 +33,7 @@ app.get('/lyricstwo', function(req, res) {
             $(this).contents( ).each(function(i, elem){
               var line = $( this ).text().trim( );
               line = line.split( '\n' ).join( ' ' ).trim( );
-              
+
               if ( line != '' )
                 lyrics_list.push( $(this).text() );
             });
