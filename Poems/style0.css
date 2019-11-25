@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "copperplate";
+  src:url("Fonts/copperplate.ttf");
+}
+
+@font-face {
+  font-family: "BritannicBold";
+  src: url("Fonts/Britannic Bold.ttf");
+}
+
+body{
+  margin: 0;
+  padding: 0;
+
+}
+
+
+.container{
+    position: absolute;
+    bottom: 180px;
+    right: 550px;
+    font-size: 40px;
+
+}
+
+.title1 {
+
+    position: absolute;
+    bottom: 250px;
+    left: 70px;
+    font-size: 100px;
+    font-family: "BritannicBold", serif;
+    color: black;
+    line-height: 20px;
+    transform: rotate(270deg);
+
+}
+
+.title2 {
+
+    position: absolute;
+    bottom: 500px;
+    right:  715px;
+    font-size: 100px;
+    font-family: "BritannicBold", serif;
+    color: black;
+    line-height: 20px;
+
+}
+
+.textbutton{
+  position: absolute;
+  bottom: 109px;
+  right: 360px;
+
+  padding: 10px 20px;
+  margin: auto auto;
+
+  background-color: none;
+  text-decoration: none;
+
+  font-size: 25px;
+  font-family: "copperplate", serif;
+  color: black;
+  line-height: 20px;
+  cursor: url("images/cursor1.png"), auto;
+
+}
+
+.textbutton:hover{
+  color: #337f93;
+  cursor: url("images/peach1.png"), auto;
+
+}
+
+.backgroundDiv {
+  background: url(images/background1.png);
+  background-size: 100% 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.backgroundPoem {
+  background: url(Poems/images/poem_background.png);
+  background-size: 100% 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
