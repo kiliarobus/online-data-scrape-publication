@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>This is peachy</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <style>
+    html, body { cursor: url("images/cursor2.png"), auto }
+  </style>
+</head>
+
+<body>
+
+<div class="videobackground">
+  <video autoplay loop muted>
+    <source src="peaches.mp4" type="video/mp4">
+  </video>
+</div>
+
+<div class="videobackground2">
+  <video autoplay loop muted>
+    <source src="peaches.mp4" type="video/mp4">
+  </video>
+</div>
+
+  <div class="whitebox"></div>
+  <div class="newpoem10"></div>
+
+
+  <a class="buttonnext" href="Poems/poem10.html">
+  <pre class="textbuttonnext">
+  next poem
+  </pre>
+</a>
+
+
+  <script type="text/javascript" src="../Data/10.js"></script>
+  <script type="text/javascript">
+
+
+    var poem10_output = document.getElementsByClassName( 'newpoem10' );
+    poem_output = poem10_output[ 0 ];
+
+    var poem10_html = '';
+    for ( var i=0; i < azlyrics_ten.length; i++ )
+      poem10_html += azlyrics_ten[ i ] + '<br/>';
+
+    poem_output.innerHTML = poem10_html;
+
+  </script>
+
+  <div class="wrapper">
+    <img class="image-eye" src="images/eye2.png" alt="booty poem">
+
+  <div class="wrapper1">
+    <img class="image-next" src="images/next.png" alt="booty poem">
+
+
+</body>
+
+</html>

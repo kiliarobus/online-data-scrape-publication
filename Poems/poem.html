@@ -28,13 +28,14 @@
   <div class="whitebox"></div>
   <div class="newpoem"></div>
 
+
   <a class="buttonnext" href="Poems/poem.html">
   <pre class="textbuttonnext">
   next poem
   </pre>
 </a>
 
-  <script type="text/javascript" src="../Data/azlyrics_output_new.js"></script>
+  <script type="text/javascript" src="../Data/00.js"></script>
   <script type="text/javascript">
 
     // get the output div using the classname
@@ -42,8 +43,8 @@
     poem_output = poem_output[ 0 ];
 
     var poem_html = '';
-    for ( var i=0; i<azlyrics_output.length; i++ )
-      poem_html += azlyrics_output[ i ] + '<br/>';
+    for ( var i=0; i < azlyrics.length; i++ )
+      poem_html += azlyrics[ i ] + '<br/>';
 
     poem_output.innerHTML = poem_html;
   </script>
