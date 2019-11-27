@@ -157,27 +157,21 @@
 
 }
 
-
-
-
-
-.textbuttonnext{
+.button-next{
   position: fixed;
-  top: 375px;
-  left: 1100px;
+  height: 100px;
+  width: 100px;
+  top: 20px;
+  left: 1000px;
+  /* background-image:'images/next.png'; */
 
   padding: 10px 20px;
   margin: auto auto;
+  z-index: 2;
+}
 
-  background-color: none;
-  text-decoration: none;
-
-  font-size: 20px;
-  font-weight: bold;
-  font-family: "berthold", serif;
-  color: black;
-  line-height: 20px;
-
+.button-next:hover{
+  cursor: url("images/cursor3.png"), auto;
 }
 
 .wrapper {
@@ -185,29 +179,28 @@
   width: 1000px;
 }
 
-.image-eye {
-  width: 100px;
-  position: fixed;
-  top: 380px;
-  left: 900px;
-
+.image-eye{
+width: 80px;
+height: 60px;
+position: fixed;
+top: 60px;
+left: 950px;
 }
 
 .image-eye:hover{
   cursor: url("images/cursor3.png"), auto;
 }
 
-.image-next {
-  width: 50px;
+/* .image-next {
+  width: 20px;
+  height: 20px;
   position: fixed;
   top: 390px;
   left: 1000px;
 
-}
+} */
 
-.image-next:hover{
-  cursor: url("images/cursor3.png"), auto;
-}
+
 
 
 .whitebox {
@@ -216,20 +209,25 @@
   background-color: white;
   top: 20px;
   left: 455px;
-  position: absolute;
+  position: fixed;
 
 }
 
 .videobackground {
   position: fixed;
-  background-color: white;
-  width: 100%;
-  height: 100%;
-  left: 30px;
-  top: 20px; */
+  /* background-color: white; */
+background-repeat: no-repeat;
+  left: 0px;
+  top: -50px;
+  z-index: 0;
 }
 
-.videobackground2 {
+.videobackground video{
+  width: 200%;
+  height: 800px;
+}
+
+/* .videobackground2 {
   position: fixed;
   background-color: white;
   width: 100%;
