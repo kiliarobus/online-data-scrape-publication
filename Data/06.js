@@ -1,4 +1,4 @@
-var azlyrics_six = [
+var azlyrics = [
   "Loose booty",
   "Loose booty",
   "Loose booty",
@@ -127,23 +127,6 @@ var azlyrics_six = [
   "Free your mind!",
   "Skin it back and monkey it",
   "Super stupid",
-  "Why you think they call it dope, dope?",
-  "Submit Corrections",
-  "Writer(s): George Clinton, Harold Beane",
-  "album:",
-  "\"America Eats Its Young\"",
-  "(1972)",
-  "You Hit The Nail On The Head",
-  "If You Don't Like The Effects, Don't Produce The Cause",
-  "Everybody Is Going To Make It This Time",
-  "We Hurt Too",
-  "Loose Booty",
-  "Philmore",
-  "I Call My Baby Pussycat",
-  "America Eats Its Young",
-  "Biological Speculation",
-  "That Was My Girl",
-  "Balance",
-  "Miss Lucifer's Love",
-  "Wake Up"
+  "Why you think they call it dope, dope?"
+
 ]

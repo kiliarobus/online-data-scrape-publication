@@ -1,4 +1,4 @@
-var azlyrics_ten = [
+var azlyrics = [
   "Slide in that thang, good D game",
   "Bust it so good, girl what's my name?",
   "Hit it from the back, headboard swag",
@@ -27,7 +27,6 @@ var azlyrics_ten = [
   "Who booty? Who booty? Who booty is it?",
   "Who booty is it? Who booty is it?",
   "Who booty? Who booty? Who booty is it?",
-  "[French Montana:]",
   "Hey, Montana here!",
   "See the firework, hundred bottles here",
   "You know we're flying over here",
@@ -66,8 +65,5 @@ var azlyrics_ten = [
   "Who booty? Who booty? Who booty is it?",
   "Who booty is it? Who booty is it?",
   "Who booty? Who booty? Who booty is it?",
-  "[Tag:]",
   "Cool kids go to hell...",
-  "Submit Corrections",
-  "Writer(s): Jacob Lee Tupolo, Di Jonn Gary Grizzell, Sudan Williams"
 ]

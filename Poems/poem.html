@@ -13,43 +13,33 @@
 
 <body>
 
-<div class="videobackground" >
-  <video autoplay loop muted>
-    <source src="peaches.mp4" type="video/mp4">
-  </video>
-</div>
-
-
+  <div class="videobackground" >
+    <video autoplay loop muted>
+      <source src="peaches.mp4" type="video/mp4">
+    </video>
+  </div>
 
   <div class="whitebox"></div>
-  <div class="newpoem"></div>
-
+  <div class="poemdisplay"></div>
 
   <a class="buttonnext"  href="poem1.html">
     <img class="button-next" src="images/next.png">
-</a>
+  </a>
+
+  <a class="buttonback"  href="poem10.html">
+    <img class="button-back" src="images/nextback.png">
+  </a>
+
+  <a class="buttonhome"  href="../index.html">
+    <img class="button-home" src="images/home.png" alt="booty poem">
+  </a>
+
+  <a class="image-eye" href="https://www.youtube.com/watch?v=J7tu_sJkETE">
+    <img class="image-eye" src="images/eye2.png" alt="booty poem">
+  </div>
 
   <script type="text/javascript" src="../Data/00.js"></script>
-  <script type="text/javascript">
-
-    // get the output div using the classname
-    var poem_output = document.getElementsByClassName( 'newpoem' );
-    poem_output = poem_output[ 0 ];
-
-    var poem_html = '';
-    for ( var i=0; i < azlyrics.length; i++ )
-      poem_html += azlyrics[ i ] + '<br/>';
-
-    poem_output.innerHTML = poem_html;
-  </script>
-
-  <div class="wrapper">
-    <img class="image-eye" src="images/eye2.png" alt="booty poem">
-
-  <div class="wrapper1">
-    <img class="image-next" src="images/next.png" alt="booty poem">
-
-
+  <script type="text/javascript" src="../display.js"></script>
 </body>
 
 </html>

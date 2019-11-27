@@ -1,4 +1,4 @@
-var azlyrics_eight = [
+var azlyrics = [
   "Make ya,and Shake yo shit (woo Lord)",
   "I am puttin poetry into motion my addiction is overdosing from a natural high",
   "Supplyin the soul with that unmistakinable mystical magical feelin that your money can't buy",
@@ -90,22 +90,5 @@ var azlyrics_eight = [
   "Now everybody say the crooked booty",
   "The Crooked Booty",
   "Now everybody do the Crooked Booty",
-  "The Crooked Booty (yeah, y'all got it)",
-  "Submit Corrections",
-  "Writer(s): Patrick Brown, Willie Edward Knighton, Antwan Patton, Andre Benjamin, David Sheats, Thomas Decarlo Burton",
-  "album:",
-  "\"Even In Darkness\"",
-  "(2001)",
-  "Intro: Presenting Dungeon Family",
-  "Crooked Booty",
-  "Follow The Light",
-  "Trans Df Express",
-  "On & On & On",
-  "Forever Pimpin' (Never Slippin')",
-  "Six Minutes (Dungeon Family It's On)",
-  "White Gutz",
-  "Rollin'",
-  "They Comin'...",
-  "Excalibur",
-  "What Is Rap?"
+  "The Crooked Booty (yeah, y'all got it)"
 ]

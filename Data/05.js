@@ -1,4 +1,4 @@
-var azlyrics_five = [
+var azlyrics = [
   "I told her jumpity jump dat booty (Twerk)",
   "Jumpity jump dat booty (Twerk)",
   "Jumpity jump dat booty (Twerk)",
@@ -161,13 +161,5 @@ var azlyrics_five = [
   "(Jumpity Jump)",
   "Tramp-o-line Booty (Twerk)",
   "(Jumpity Jump)",
-  "Tramp-o-line Booty (Twerk)",
-  "Submit Corrections",
-  "EP:",
-  "\"Trampoline\"",
-  "(2014)",
-  "Hands Up, Get Low",
-  "Booty Hopscotch",
-  "Trampoline Booty",
-  "Twerk It My Way"
+  "Tramp-o-line Booty (Twerk)"
 ]

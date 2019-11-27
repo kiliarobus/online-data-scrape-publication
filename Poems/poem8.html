@@ -13,49 +13,38 @@
 
 <body>
 
-<div class="videobackground">
-  <video autoplay loop muted>
-    <source src="peaches.mp4" type="video/mp4">
-  </video>
-</div>
+  <div class="videobackground">
+    <video autoplay loop muted>
+      <source src="peaches.mp4" type="video/mp4">
+    </video>
+  </div>
 
-<div class="videobackground2">
-  <video autoplay loop muted>
-    <source src="peaches.mp4" type="video/mp4">
-  </video>
-</div>
+  <div class="videobackground2">
+    <video autoplay loop muted>
+      <source src="peaches.mp4" type="video/mp4">
+    </video>
+  </div>
 
   <div class="whitebox"></div>
-  <div class="newpoem8"></div>
-
+  <div class="poemdisplay"></div>
 
   <a class="buttonnext"  href="poem9.html">
     <img class="button-next" src="images/next.png">
   </a>
 
+  <a class="buttonback"  href="poem7.html">
+    <img class="button-back" src="images/nextback.png">
+  </a>
 
-  <script type="text/javascript" src="../Data/08.js"></script>
-  <script type="text/javascript">
+  <a class="buttonhome"  href="../index.html">
+    <img class="button-home" src="images/home.png" alt="booty poem">
+  </a>
 
-
-    var poem8_output = document.getElementsByClassName( 'newpoem8' );
-    poem_output = poem8_output[ 0 ];
-
-    var poem8_html = '';
-    for ( var i=0; i < azlyrics_eight.length; i++ )
-      poem8_html += azlyrics_eight[ i ] + '<br/>';
-
-    poem_output.innerHTML = poem8_html;
-
-  </script>
-
-  <div class="wrapper">
+  <a class="image-eye" href="https://www.youtube.com/watch?v=czTVEktOYbo">
     <img class="image-eye" src="images/eye2.png" alt="booty poem">
 
-  <div class="wrapper1">
-    <img class="image-next" src="images/next.png" alt="booty poem">
-
-
+  <script type="text/javascript" src="../Data/08.js"></script>
+  <script type="text/javascript" src="../display.js"></script>
 </body>
 
 </html>

@@ -3,166 +3,29 @@
   src:url("fonts/Berthold Walbaum Book Regular.ttf");
 }
 
-.newpoem {
+/* .highlight { color: red; transform: scale(2.5); display: inline-block } */
+.highlight  {
+  font-size: 3em;
+  color: black }
 
+.poemdisplay {
     position: absolute;
     top: 30px;
     left: 480px;
     right: 470px;
-    font-size: 20px;
+    font-size: 15px;
     font-family: "berthold", serif;
     color: black;
     line-height: 20px;
     z-index: 2;
-
-}
-
-.newpoem1 {
-
-    position: absolute;
-    top: 30px;
-    left: 480px;
-    right: 470px;
-    font-size: 20px;
-    font-family: "berthold", serif;
-    color: black;
-    line-height: 20px;
-    z-index: 2;
-
-}
-
-.newpoem2 {
-
-    position: absolute;
-    top: 30px;
-    left: 480px;
-    right: 470px;
-    font-size: 20px;
-    font-family: "berthold", serif;
-    color: black;
-    line-height: 20px;
-    z-index: 2;
-
-}
-
-.newpoem3 {
-
-    position: absolute;
-    top: 30px;
-    left: 480px;
-    right: 470px;
-    font-size: 20px;
-    font-family: "berthold", serif;
-    color: black;
-    line-height: 20px;
-    z-index: 2;
-
-}
-
-.newpoem4 {
-
-    position: absolute;
-    top: 30px;
-    left: 480px;
-    right: 470px;
-    font-size: 20px;
-    font-family: "berthold", serif;
-    color: black;
-    line-height: 20px;
-    z-index: 2;
-
-}
-
-.newpoem5 {
-
-    position: absolute;
-    top: 30px;
-    left: 480px;
-    right: 470px;
-    font-size: 20px;
-    font-family: "berthold", serif;
-    color: black;
-    line-height: 20px;
-    z-index: 2;
-
-}
-
-.newpoem6 {
-
-    position: absolute;
-    top: 30px;
-    left: 480px;
-    right: 470px;
-    font-size: 20px;
-    font-family: "berthold", serif;
-    color: black;
-    line-height: 20px;
-    z-index: 2;
-
-}
-
-.newpoem7 {
-
-    position: absolute;
-    top: 30px;
-    left: 480px;
-    right: 470px;
-    font-size: 20px;
-    font-family: "berthold", serif;
-    color: black;
-    line-height: 20px;
-    z-index: 2;
-
-}
-
-.newpoem8 {
-
-    position: absolute;
-    top: 30px;
-    left: 480px;
-    right: 470px;
-    font-size: 20px;
-    font-family: "berthold", serif;
-    color: black;
-    line-height: 20px;
-    z-index: 2;
-
-}
-
-.newpoem9 {
-
-    position: absolute;
-    top: 30px;
-    left: 480px;
-    right: 470px;
-    font-size: 20px;
-    font-family: "berthold", serif;
-    color: black;
-    line-height: 20px;
-    z-index: 2;
-
-}
-
-.newpoem10 {
-
-    position: absolute;
-    top: 30px;
-    left: 480px;
-    right: 470px;
-    font-size: 20px;
-    font-family: "berthold", serif;
-    color: black;
-    line-height: 20px;
-    z-index: 2;
-
 }
 
 .button-next{
   position: fixed;
-  height: 100px;
-  width: 100px;
-  top: 20px;
-  left: 1000px;
+  height: 70px;
+  width: 50px;
+  top: 40px;
+  left: 1050px;
   /* background-image:'images/next.png'; */
 
   padding: 10px 20px;
@@ -174,17 +37,51 @@
   cursor: url("images/cursor3.png"), auto;
 }
 
+.button-back{
+  position: fixed;
+  height: 70px;
+  width: 50px;
+  top: 40px;
+  left: 875px;
+
+  padding: 10px 20px;
+  margin: auto auto;
+  z-index: 2;
+}
+
+.button-back:hover{
+  cursor: url("images/cursor3.png"), auto;
+}
+
+
+.button-home {
+  position: fixed;
+  height: 100px;
+  width: 100px;
+  top: 20px;
+  left: 1120px;
+  /* background-image:'images/next.png'; */
+
+  padding: 10px 20px;
+  margin: auto auto;
+  z-index: 2;
+}
+
+.button-home:hover{
+  cursor: url("images/cursor3.png"), auto;
+}
+
 .wrapper {
   margin: 0 auto;
   width: 1000px;
 }
 
 .image-eye{
-width: 80px;
-height: 60px;
+width: 90px;
+height: 70px;
 position: fixed;
-top: 60px;
-left: 950px;
+top: 55px;
+left: 960px;
 }
 
 .image-eye:hover{

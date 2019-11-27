@@ -90,7 +90,7 @@ app.get('/lyricsone', function(req, res) {
       // send the data we've stored in our object back to the browser
       res.send( lyrics_list );
 
-      write_output( './Data/01.js', 'azlyrics_one', JSON.stringify( lyrics_list, null, 2 ) );
+      write_output( './Data/01.js', 'azlyrics', JSON.stringify( lyrics_list, null, 2 ) );
     }
   });
 });
@@ -124,7 +124,7 @@ app.get('/lyricstwo', function(req, res) {
       // send the data we've stored in our object back to the browser
       res.send( lyrics_list );
 
-      write_output( './Data/02.js', 'azlyrics_two', JSON.stringify( lyrics_list, null, 2 ) );
+      write_output( './Data/02.js', 'azlyrics', JSON.stringify( lyrics_list, null, 2 ) );
     }
   });
 });
@@ -158,7 +158,7 @@ app.get('/lyricsthree', function(req, res) {
       // send the data we've stored in our object back to the browser
       res.send(lyrics_list);
 
-      write_output( './Data/03.js', 'azlyrics_three', JSON.stringify( lyrics_list, null, 2 ) );
+      write_output( './Data/03.js', 'azlyrics', JSON.stringify( lyrics_list, null, 2 ) );
     }
   });
 });
@@ -191,7 +191,7 @@ app.get('/lyricsfour', function(req, res) {
       // send the data we've stored in our object back to the browser
       res.send(lyrics_list);
 
-      write_output( './Data/04.js', 'azlyrics_four', JSON.stringify( lyrics_list, null, 2 ) );
+      write_output( './Data/04.js', 'azlyrics', JSON.stringify( lyrics_list, null, 2 ) );
     }
   });
 });
@@ -225,7 +225,7 @@ app.get('/lyricsfive', function(req, res) {
       // send the data we've stored in our object back to the browser
       res.send(lyrics_list);
 
-      write_output( './Data/05.js', 'azlyrics_five', JSON.stringify( lyrics_list, null, 2 ) );
+      write_output( './Data/05.js', 'azlyrics', JSON.stringify( lyrics_list, null, 2 ) );
     }
   });
 });
@@ -258,7 +258,7 @@ app.get('/lyricssix', function(req, res) {
       // send the data we've stored in our object back to the browser
       res.send(lyrics_list);
 
-      write_output( './Data/06.js', 'azlyrics_six', JSON.stringify( lyrics_list, null, 2 ) );
+      write_output( './Data/06.js', 'azlyrics', JSON.stringify( lyrics_list, null, 2 ) );
     }
   });
 });
@@ -291,7 +291,7 @@ app.get('/lyricsseven', function(req, res) {
       // send the data we've stored in our object back to the browser
       res.send(lyrics_list);
 
-      write_output( './Data/07.js', 'azlyrics_seven', JSON.stringify( lyrics_list, null, 2 ) );
+      write_output( './Data/07.js', 'azlyrics', JSON.stringify( lyrics_list, null, 2 ) );
     }
   });
 });
@@ -324,7 +324,7 @@ app.get('/lyricseight', function(req, res) {
       // send the data we've stored in our object back to the browser
       res.send(lyrics_list);
 
-      write_output( './Data/08.js', 'azlyrics_eight', JSON.stringify( lyrics_list, null, 2 ) );
+      write_output( './Data/08.js', 'azlyrics', JSON.stringify( lyrics_list, null, 2 ) );
     }
   });
 });
@@ -357,7 +357,7 @@ app.get('/lyricsnine', function(req, res) {
       // send the data we've stored in our object back to the browser
       res.send(lyrics_list);
 
-      write_output( './Data/09.js', 'azlyrics_nine', JSON.stringify( lyrics_list, null, 2 ) );
+      write_output( './Data/09.js', 'azlyrics', JSON.stringify( lyrics_list, null, 2 ) );
     }
   });
 });
@@ -390,7 +390,7 @@ app.get('/lyricsten', function(req, res) {
       // send the data we've stored in our object back to the browser
       res.send(lyrics_list);
 
-      write_output( './Data/10.js', 'azlyrics_ten', JSON.stringify( lyrics_list, null, 2 ) );
+      write_output( './Data/10.js', 'azlyrics', JSON.stringify( lyrics_list, null, 2 ) );
     }
   });
 });

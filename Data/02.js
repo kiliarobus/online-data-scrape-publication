@@ -1,5 +1,4 @@
-var azlyrics_two = [
-  "[T-Pain:]",
+var azlyrics = [
   "Look at the booty, you got on you, toot toot",
   "That booty, you got on you, toot toot",
   "Look at the booty, you got on you, toot toot",
@@ -35,7 +34,6 @@ var azlyrics_two = [
   "Toot toot",
   "Put that booty on you too",
   "Get a million and",
-  "[?]",
   ", ooh, ooh",
   "Toot toot",
   "Boop, boop",
@@ -84,7 +82,6 @@ var azlyrics_two = [
   "Shake that booty, can I lay on the booty?",
   "Mike Tyson on the booty",
   "Copyright that booty (twerk twerk)",
-  "[Young Cash:]",
   "If I see that out, be your one and only",
   "Promise, promise, I will never leave that booty lonely",
   "I wouldn't cheat with that booty, it's big, what to do with that booty?",
@@ -114,7 +111,5 @@ var azlyrics_two = [
   "Can I touch that booty?",
   "That booty, that big old booty?",
   "Shake that booty, can I lay on the booty?",
-  "Mike Tyson on the booty",
-  "Copyright that booty (twerk twerk)",
-  "Submit Corrections"
+  "Mike Tyson on the booty"
 ]
