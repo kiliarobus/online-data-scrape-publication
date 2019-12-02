@@ -3,22 +3,32 @@
   src:url("fonts/Berthold Walbaum Book Regular.ttf");
 }
 
+@font-face {
+  font-family: "sangbleu";
+  src:url("fonts/SangBleu-King.otf");
+}
+
+@font-face {
+  font-family: "thew";
+  src:url("fonts/TheW.otf");
+}
+
 /* .highlight { color: red; transform: scale(2.5); display: inline-block } */
 .highlight  {
   font-size: 3em;
   color: black }
 
-.poemdisplay {
+ .poemdisplay {
     position: absolute;
     top: 30px;
     left: 480px;
     right: 470px;
-    font-size: 15px;
-    font-family: "berthold", serif;
+    font-size: 17px;
+    font-family: "thew";
     color: black;
     line-height: 20px;
     z-index: 2;
-}
+} */
 
 .button-next{
   position: fixed;
@@ -26,7 +36,6 @@
   width: 50px;
   top: 40px;
   left: 1050px;
-  /* background-image:'images/next.png'; */
 
   padding: 10px 20px;
   margin: auto auto;
@@ -107,7 +116,6 @@ left: 960px;
   top: 20px;
   left: 455px;
   position: fixed;
-
 }
 
 .videobackground {
